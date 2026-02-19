@@ -8,7 +8,7 @@ RUN npm ci --include=dev
 
 COPY . .
 
-RUN ./node_modules/.bin/tsc
+RUN node node_modules/typescript/bin/tsc
 
 RUN npm prune --production
 
