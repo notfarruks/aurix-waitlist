@@ -1,5 +1,0 @@
-[phases.install]
-cmds = ["npm ci --include=dev --cache /tmp/npm-cache"]
-
-[phases.build]
-cmds = ["npx tsc"]
