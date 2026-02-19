@@ -28,5 +28,4 @@ yarn-error.log*
 Thumbs.db
 
 # TypeScript
-# dist/  <-- COMMENTED OUT so we can push compiled code to Railway
 *.tsbuildinfo
